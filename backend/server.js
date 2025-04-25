@@ -9,6 +9,12 @@ import adminRouter from './routes/adminRoute.js'
 import doctorRouter from './routes/doctorRoute.js'
 import userRouter from './routes/userRoute.js'
 
+
+
+
+
+
+
 // app config
 const app = express()
 const port = process.env.PORT || 4000
@@ -17,7 +23,10 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+
+
+app.use(cors());
+
 
 // api end point
 app.use('/api/admin', adminRouter)
