@@ -42,4 +42,5 @@ Create a .env file to store your credentials:
 
 -
 ## 🌍 How it looks
+[demo](https://doctor-appointment-git-main-megha-yadavs-projects.vercel.app)
 
